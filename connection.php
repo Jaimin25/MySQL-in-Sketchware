@@ -1,4 +1,5 @@
 <?php
+//THIS FILE IS FOR PART-I
 
 //Your server name, it will be same for all 000webhost accounts
 $servername = "your_servername";
