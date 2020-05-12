@@ -38,13 +38,13 @@ if ($mysql->query($sql) === TRUE) {
   echo "Error creating table: " . $mysql->error;
 }
 
-//Here we will get firstname of the username from the key 'firstname'
+//Here we will get firstname entered by the user from the key 'firstname'
 $first_name = $_POST["firstname"];
 
-//Here we will get lastname of the username from the key 'lastname'
+//Here we will get lastname entered by the user from the key 'lastname'
 $last_name = $_POST["lastname"];
 
-//Here we will get email of the username from the key 'email'
+//Here we will get email entered by the user from the key 'email'
 $email = $_POST["email"];
 
 //Insert data into the table, users is the table name
