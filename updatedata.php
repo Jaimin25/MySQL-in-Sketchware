@@ -26,11 +26,11 @@ $email = "";
 //Here you will send the type which you want to do first, like, we should first check that the data we have to update is present in DB or not and then we have to update it
 $type = $_POST["type"];
 
-//getData command will check that the data is present or not
+//getData type will check that the data is present or not
 if($type == "getData"){
     getData($mysql);
     
-    //updateData command will update/change the data with the entered data
+    //updateData type will update/change the data with the entered data
 } else if($type == "updateData"){
     updateData($mysql);
 }
