@@ -20,7 +20,7 @@ $mysql = mysqli_connect($servername, $username, $password, $dbname);
 //Check connection
 
 if($mysql->connect_error){
-echo "Connection failed: ". connect_error;
+echo "Connection failed: ". $mysql->connect_error;
 } else {
 echo "Connected successfully\n";
 }
